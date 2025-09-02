@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Real Dark Mode",
+  "description": "Flashlight-style dark mode overlay that reveals content around the cursor.",
+  "version": "1.0.0",
+  "action": {
+    "default_title": "Toggle Real Dark Mode"
+  },
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "tabs",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
+
